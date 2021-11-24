@@ -2,7 +2,7 @@ package solution_gui;
 import javax.swing.*;
 import java.awt.*;
 
-public class BoxCard{
+public class Exercise_14_5 {
     public static void main(String[] args) {
         JFrame application = new JFrame("Align");
         application.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 2));
