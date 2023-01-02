@@ -39,7 +39,7 @@ public class InfixToPostfixConverter {
                 }
 
                 if(isOperator(value)){ //is an operator
-                    //System.out.println(value);
+                    //System.out.println(value); debug line
 
                     //Yes, is an operator also at the top of the stack?
                     if(isOperator(exp.peek())){
